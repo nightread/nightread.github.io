@@ -1,6 +1,7 @@
 ---
 layout: default
 title: NightRead - Privacy Policy
+permalink: /privacy/
 ---
 
 # NightRead Privacy Policy

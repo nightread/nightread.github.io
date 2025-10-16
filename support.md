@@ -1,6 +1,7 @@
 ---
 layout: default
 title: NightRead - Support
+permalink: /support/
 ---
 
 # NightRead Support
