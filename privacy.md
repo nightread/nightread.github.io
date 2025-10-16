@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-# NightRead Privacy Policy
+# Privacy Policy
 
 **Last Updated: October 2024**
 

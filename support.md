@@ -4,7 +4,7 @@ title: Support
 permalink: /support/
 ---
 
-# NightRead Support
+# Support
 
 Thank you for using NightRead! We provide comprehensive support services for our users.
 
