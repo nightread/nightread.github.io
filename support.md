@@ -48,13 +48,13 @@ Please try these troubleshooting steps:
 
 If you experience any issues or have suggestions, please contact us:
 
-📧 **Technical Support:** {{DEVELOPER_EMAIL}}
+📧 **Technical Support:** https://github.com/nightread/nightread-support/issues
 
-💬 **Feedback & Suggestions:** {{DEVELOPER_EMAIL}}
+💬 **Feedback & Suggestions:** https://github.com/nightread/nightread-support/issues
 
-🐛 **Bug Reports:** {{DEVELOPER_EMAIL}}
+🐛 **Bug Reports:** https://github.com/nightread/nightread-support/issues
 
-🌐 **Official Website:** {{DEVELOPER_WEBSITE}}
+🌐 **Official Website:** https://nightread.github.io/nightread-support/
 
 ## User Feedback
 

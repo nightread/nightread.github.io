@@ -8,6 +8,10 @@ url: "https://nightread.github.io"
 markdown: kramdown
 highlighter: rouge
 theme: minima
+header_pages:
+  - index.md
+  - privacy.md
+  - support.md
 
 # Collections
 collections:

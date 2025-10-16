@@ -66,6 +66,6 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 If you have any questions about this Privacy Policy or our privacy practices, please contact us:
 
-📧 **Email:** {{DEVELOPER_EMAIL}}
+📧 **Email / Issues:** https://github.com/nightread/nightread-support/issues
 
-🌐 **Website:** {{DEVELOPER_WEBSITE}}
+🌐 **Website:** https://nightread.github.io/nightread-support/
