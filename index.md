@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NightRead - iOS Safari Extension
+title: NightRead
 description: NightRead is a free iOS Safari browser extension designed to provide an enhanced nighttime reading experience for iPhone and iPad users.
 ---
 

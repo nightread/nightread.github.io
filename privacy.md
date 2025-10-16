@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NightRead - Privacy Policy
+title: Privacy Policy
 permalink: /privacy/
 ---
 

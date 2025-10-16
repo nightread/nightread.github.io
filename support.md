@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NightRead - Support
+title: Support
 permalink: /support/
 ---
 
