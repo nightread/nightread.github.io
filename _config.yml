@@ -1,7 +1,7 @@
 # Site settings
 title: NightRead Support
 description: NightRead is a free iOS Safari browser extension designed to provide an enhanced nighttime reading experience for iPhone and iPad users.
-baseurl: "/nightread-support"
+baseurl: ""
 url: "https://nightread.github.io"
 
 # Build settings
