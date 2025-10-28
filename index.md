@@ -31,8 +31,8 @@ NightRead is a free iOS Safari browser extension designed to provide an enhanced
 
 ## 📖 Documentation
 
-- [Privacy Policy](/nightread-support/privacy/)
-- [Support Page](/nightread-support/support/)
+- [Privacy Policy]({{ '/privacy/' | relative_url }})
+- [Support Page]({{ '/support/' | relative_url }})
 
 ---
 
