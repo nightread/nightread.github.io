@@ -68,4 +68,4 @@ If you have any questions about this Privacy Policy or our privacy practices, pl
 
 📧 **Email / Issues:** https://github.com/nightread/nightread-support/issues
 
-🌐 **Website:** https://nightread.github.io/nightread-support/
+🌐 **Website:** https://nightread.github.io/

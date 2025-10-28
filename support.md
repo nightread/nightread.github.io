@@ -54,7 +54,7 @@ If you experience any issues or have suggestions, please contact us:
 
 🐛 **Bug Reports:** https://github.com/nightread/nightread-support/issues
 
-🌐 **Official Website:** https://nightread.github.io/nightread-support/
+🌐 **Official Website:** https://nightread.github.io/
 
 ## User Feedback
 
