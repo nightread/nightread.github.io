@@ -12,9 +12,11 @@ NightRead {{ site.nightread.version }} brings a darker reading appearance to Saf
 
 [View NightRead on the App Store]({{ site.nightread.app_store_url }})
 
-## Price
+## Price and availability
 
-**{{ site.nightread.us_price }} — a one-time purchase in the U.S. App Store.** No subscription, in-app purchases, or ads. Prices in other storefronts may differ; check the price shown by the App Store before purchasing.
+Download NightRead from the App Store where available. Availability depends on your Apple Account's country or region; check your local App Store listing.
+
+**One-time purchase. U.S. base price: {{ site.nightread.us_price }}.** No subscription, in-app purchases, or ads. Apple provides comparable local prices for other storefronts and may adjust them for taxes or exchange rates. Check the price shown in your App Store before purchasing.
 
 ## Choose your reading appearance
 

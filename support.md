@@ -10,7 +10,9 @@ NightRead {{ site.nightread.version }} is a Safari extension for iPhone and iPad
 
 ## Purchase and requirements
 
-NightRead {{ site.nightread.version }} is a **{{ site.nightread.us_price }} one-time purchase in the U.S. App Store**. There are no subscriptions, in-app purchases, ads, or accounts. Local prices may differ; the [App Store]({{ site.nightread.app_store_url }}) shows the current price for your storefront.
+Download NightRead from the [App Store]({{ site.nightread.app_store_url }}) where available. Availability depends on your Apple Account's country or region; check your local App Store listing.
+
+The **U.S. base price is {{ site.nightread.us_price }} as a one-time purchase**. Apple provides comparable local prices for other storefronts and may adjust them for taxes or exchange rates. Check your App Store for the current local price. There are no subscriptions, in-app purchases, ads, or NightRead accounts.
 
 Version {{ site.nightread.version }} requires **iOS or iPadOS {{ site.nightread.minimum_ios }} or later** and Safari. Font selection and manual brightness/contrast sliders are not offered in the popup.
 
