@@ -1,60 +1,29 @@
-# NightRead
+# NightRead support website
 
-NightRead is a free iOS Safari browser extension designed to provide an enhanced nighttime reading experience for iPhone and iPad users.
+Jekyll/GitHub Pages content for the NightRead Safari extension: the product page, setup and troubleshooting, and privacy policy.
 
-## 🌟 Features
+## Release alignment
 
-- 🌙 **Dark Mode** - Intelligently adjusts webpage brightness and contrast for comfortable nighttime reading
-- 📖 **Reading Optimization** - Enhances fonts and typography for improved reading experience
-- ⚙️ **Personalized Settings** - Customize display effects according to your preferences
-- 🔒 **Privacy Protection** - Zero data collection, all settings stored locally on your device
-- 🆓 **Completely Free** - No ads, no in-app purchases, no subscriptions
+The current content is prepared for **NightRead 2.0 / build 2**, whose App Store Connect metadata reports a minimum of iOS/iPadOS **17.0**. The approved U.S. price for this content update is **US$0.99 as a one-time purchase**. Verify that the App Store price and version match before publishing; editing this repository does not change App Store Connect pricing or release the app.
 
-## 📱 System Requirements
+Release values are centralized under `nightread` in [_config.yml](_config.yml). Keep them aligned with the approved release whenever the version, price, or minimum OS changes.
 
-- iOS 15.0 or later
-- Safari browser
-- Compatible with iPhone and iPad
+## Content
 
-## 🔧 Installation Guide
+- [Product page](index.md): price, On/Auto/Off modes, Soft gray/Black/Warm palettes, website exceptions, and the local Day/Night sample.
+- [Support](support.md): setup paths for iOS/iPadOS 17 and 18+, website access, troubleshooting, and the 2.0 changes.
+- [Privacy](privacy.md): local preferences and exact-host exceptions, removal controls, browser resource requests, and the existing feedback channel.
 
-1. Download the NightRead app from the App Store
-2. Open iPhone Settings → Safari → Extensions
-3. Enable the "NightRead" extension
-4. In Safari, tap the share button and select NightRead for personalized setup
+Descriptions should follow the shipped implementation. The app's sample is separate from Safari extension authorization. Website compatibility varies. Do not promise font controls, manual brightness sliders, universal compatibility, or health benefits.
 
-## 📖 Usage Instructions
+## Preview and publication
 
-In Safari browser:
-1. Visit any webpage
-2. Tap the share button in the bottom toolbar
-3. Select "NightRead"
-4. Adjust display settings as needed
+With a GitHub Pages compatible Jekyll environment available, run:
 
-## 📄 Documentation
+```sh
+jekyll serve --destination /tmp/nightread-support-preview
+```
 
-- [Privacy Policy](privacy.md) - Learn how we protect your privacy and comply with US privacy laws
-- [Support Page](support.md) - Get help, technical support, and troubleshooting assistance
+Review the home, support, and privacy pages before publishing. Keep generated site output and local dependency directories outside the repository. A content commit should not include preview files or machine-specific paths.
 
-## 🤝 Contributing
-
-If you have any suggestions or discover issues, please contact us through:
-
-- Submit an Issue
-- Email us at: {{DEVELOPER_EMAIL}}
-
-## 📄 License
-
-This app is distributed through the Apple App Store and is subject to Apple's standard licensing terms and conditions. All rights reserved by the developer.
-
-## Privacy Commitment
-
-NightRead is committed to user privacy and operates as a zero-data-collection extension. All settings and preferences are stored locally on your device.
-
-## 🙏 Acknowledgments
-
-Thank you to all users who support NightRead! We are committed to providing a privacy-focused, free reading enhancement tool.
-
----
-
-**Note**: This is a GitHub Pages project. Click the documentation links above to view detailed information about NightRead.
+The site URL remains `https://nightread.github.io`. Feedback uses the existing [issue tracker](https://github.com/nightread/nightread.github.io/issues). Preserve the configured author and contact channels unless the owner approves a change.
