@@ -4,68 +4,47 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-# Privacy Policy
+# Privacy policy
 
-**Last Updated: October 2024**
+Last updated: October 16, 2026. This policy describes NightRead {{ site.nightread.version }} for iPhone and iPad.
 
-NightRead is a free iOS Safari browser extension designed to provide users with an enhanced nighttime reading experience. We are committed to protecting your privacy.
+## Extension data handling
 
-## Information We Collect
+NightRead has no analytics SDK, advertising service, account system, or backend that collects browsing data. It processes webpage content and styles on your device to apply your selected reading appearance. It does not send page content, full page URLs, or browsing history to a NightRead service.
 
-NightRead **does not collect** any personal information, including:
+Safari extension local storage keeps your selected mode, reading appearance, older appearance values retained for compatibility, and preference migration information. If you choose **Disable on this website**, it also stores the normalized hostname, such as `example.com`, so NightRead can remember that exception. An exception stores the hostname rather than a full URL, path, or query string. NightRead does not create a continuous browsing-history log.
 
-- Your browsing history
-- Your personally identifiable information
-- Your device information
-- Your location data
-- Any other personal data
+For compatibility with older versions, the extension may read existing preferences from the containing app's local App Group storage. This is communication between components on your device, not a connection to a remote NightRead server.
 
-We are a **zero-data-collection** extension that operates entirely on your local device.
+## Retention and your controls
 
-## Data Storage
+Preferences and exception hostnames remain in local extension storage so your choices can be used again. You can change modes and reading appearances in the Safari popup.
 
-All extension settings and preferences are stored locally on your device. We do not transmit any data to external servers, cloud services, or third-party platforms. Your data remains exclusively on your device and under your control.
+- To delete a stored website exception, open **Website exceptions** and choose **Remove** beside the hostname, or turn off **Disable on this website** for that hostname. Each exception applies only to the exact hostname shown.
+- **Off** removes NightRead's reading appearance from the page. It changes the saved mode and does not erase website exceptions or other saved preferences.
+- **Reset** returns the reading appearance to Soft gray. It does not clear all saved settings.
+- You can revoke website access or disable the extension in Safari settings. Changing authorization does not itself delete the saved exceptions described above.
 
-## Third-Party Services
+NightRead does not keep a server copy of these preferences. Local storage retention, device backups, and restoration are controlled by Safari and the operating system; Private Browsing should not be treated as a way to erase saved extension preferences.
 
-NightRead does **not** use any third-party:
-- Analytics services
-- Advertising services
-- Data collection services
-- Tracking services
-- Cloud storage services
+## Webpage resources
 
-## Required Permissions
+Dark Reader is bundled with the app; NightRead does not download its JavaScript at runtime. To style a webpage, the extension can request that page's referenced stylesheets or images through the browser. These requests may reach the website or its resource hosts under normal browser networking rules. The website or resource host may process request information under its own policies. NightRead does not use those requests as an analytics or data collection service.
 
-The extension requires the following permissions solely to provide its core functionality:
+The NightRead app's Day/Night sample uses bundled content and the bundled reading engine. It does not change Safari website permissions or confirm that the extension is enabled. Opening a sample webpage or a help/privacy link uses ordinary browser networking for that destination.
 
-- **Access webpage content** - Required to modify webpage styling for enhanced nighttime reading
-- **Store settings** - Required to save your personal preferences locally on your device
+## Permissions
 
-## Children's Privacy
+- Website access lets NightRead read webpage content and change its appearance on sites you permit in Safari.
+- Local storage saves modes, reading appearances, compatibility values, and explicitly selected website exceptions.
+- Native messaging reads older locally stored preferences during migration; it does not communicate with a remote server.
 
-NightRead is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.
+You choose website access in Safari settings. All Websites access is optional. Private Browsing has a separate extension permission, which is only needed if you want NightRead to work there.
 
-## Your Privacy Rights
+## Support website and feedback
 
-As NightRead does not collect any personal information, your privacy rights are automatically protected.
+This site is hosted on GitHub Pages, which handles ordinary website requests according to its own policies. Reports you submit to the [issue tracker](https://github.com/nightread/nightread.github.io/issues) are handled by GitHub and may be public. Do not include passwords or private browsing content.
 
-## Do Not Track
+## Contact and updates
 
-NightRead honors Do Not Track signals and does not track users across websites or over time.
-
-## Data Security
-
-While we do not collect personal data, we implement reasonable security measures to protect the extension's functionality and prevent unauthorized access to your device.
-
-## Changes to This Policy
-
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with a new "Last Updated" date. We encourage you to review this policy periodically.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy or our privacy practices, please contact us:
-
-📧 **Email / Issues:** https://github.com/nightread/nightread.github.io/issues
-
-🌐 **Website:** https://nightread.github.io/
+Ask privacy questions through the same issue tracker without including private webpage content. Updates to this policy will be posted here with a revised date when NightRead's implementation or data handling changes.

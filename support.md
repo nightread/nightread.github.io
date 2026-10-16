@@ -4,92 +4,75 @@ title: Support
 permalink: /support/
 ---
 
-# Support
+# NightRead support
 
-Thank you for using NightRead! We provide comprehensive support services for our users.
+NightRead {{ site.nightread.version }} is a Safari extension for iPhone and iPad with **On, Auto, and Off** modes, **Soft gray, Black, and Warm** reading appearances, and exceptions for individual website hostnames.
 
-## Frequently Asked Questions
+## Purchase and requirements
 
-### What is NightRead?
-NightRead is iOS Safari browser extension designed to provide an enhanced nighttime reading experience for iPhone and iPad users.
+Download NightRead from the [App Store]({{ site.nightread.app_store_url }}) where available. Availability depends on your Apple Account's country or region; check your local App Store listing.
 
-### How do I install NightRead?
-1. Download the NightRead app from the App Store
-2. Open iPhone Settings → Safari → Extensions
-3. Enable the NightRead extension
-4. In Safari, tap the extension button and select NightRead for setup
+The **U.S. base price is {{ site.nightread.us_price }} as a one-time purchase**. Apple provides comparable local prices for other storefronts and may adjust them for taxes or exchange rates. Check your App Store for the current local price. There are no subscriptions, in-app purchases, ads, or NightRead accounts.
 
-### Does NightRead collect my personal information?
-No, NightRead does not collect any personal information. All settings are stored locally on your device. We are a zero-data-collection extension.
+Version {{ site.nightread.version }} requires **iOS or iPadOS {{ site.nightread.minimum_ios }} or later** and Safari. Font selection and manual brightness/contrast sliders are not offered in the popup.
 
-### The extension isn't working properly. What should I do?
-Please try these troubleshooting steps:
-- Ensure the extension is enabled in Settings
-- Restart Safari browser
-- Restart your device
-- Check for iOS system updates
-- Verify Safari extension permissions
+## Set up NightRead
 
-## Features
+1. Install NightRead and open the app. Use the help button for **Setup Instructions**.
+2. On iOS/iPadOS 18 or later, open **Settings → Apps → Safari → Extensions → NightRead**. On iOS/iPadOS 17, open **Settings → Safari → Extensions → NightRead**.
+3. Turn on **Allow Extension**, then allow access to the websites you want to use. **All Websites is optional.**
+4. Explicitly open a light webpage such as `https://example.com/` in **Safari**.
+5. Open the Page Menu beside the address bar and select **NightRead**. Depending on your Safari layout, it may be under Extensions or More.
+6. Choose **On** and a reading appearance. Reload the webpage if needed. Choose **Off** to restore the website's own appearance.
 
-### Current Features
-- 🌙 Dark mode toggle with intelligent brightness adjustment
-- ⚙️ Personalized settings and preferences
-- 🔒 Complete privacy protection (zero data collection)
-- 🆓 Totally free with no ads or in-app purchases
+Where supported, **Set up in Safari** in the app opens Safari's extension settings. Other system versions show the manual guide. If the shortcut cannot open Settings, follow the manual steps above. The app cannot verify Safari settings; check the extension's result on a webpage.
 
-### Coming Soon
-- Additional theme options
-- Custom font selection
-- Advanced reading modes
-- Enhanced accessibility features
+The app's **Open a Sample Webpage** link follows your default browser. If that browser is not Safari, open the URL in Safari yourself to use the extension. Private Browsing has a separate extension permission; enable it only if you want to use NightRead there.
 
-## Contact Us
+## Modes and reading appearances
 
-If you experience any issues or have suggestions, please contact us:
+- **On** applies the selected dark appearance to websites Safari permits NightRead to access.
+- **Auto** follows the device's system appearance. A light system appearance leaves the page unchanged; a dark system appearance enables NightRead.
+- **Off** removes NightRead's appearance from the page.
+- Choose **Soft gray**, **Black**, or **Warm** in the popup. **Reset** returns the reading appearance to Soft gray; it does not clear modes or website exceptions.
 
-📧 **Technical Support:** https://github.com/nightread/nightread.github.io/issues
+The **Day/Night** sample in the app is a local demonstration of Soft gray. It does not change your saved Safari extension preferences or website permissions.
 
-💬 **Feedback & Suggestions:**https://github.com/nightread/nightread.github.io/issues
+## Website exceptions
 
-🐛 **Bug Reports:** https://github.com/nightread/nightread.github.io/issues
+To keep a website unchanged, turn on **Disable on this website** in the popup. This saves only the exact hostname shown. An exception for `example.com` does not automatically include `www.example.com` or other subdomains.
 
-🌐 **Official Website:** https://nightread.github.io/
+To enable NightRead there again, turn that switch off, or open **Website exceptions** and choose **Remove** beside the hostname. Other websites keep their existing settings. Revoking Safari website access is a separate setting; removing an exception does not grant permission in Safari.
 
-## User Feedback
+## If a page does not change
 
-We value every user's feedback. Your suggestions help us improve our product. When contacting us, please provide:
+- Check **Allow Extension** in Safari settings and access for that website.
+- Check the selected mode. If it is **Auto** and your system uses a light appearance, the unchanged webpage is expected. Choose **On** to try dark appearance.
+- Check **Disable on this website** and the saved **Website exceptions** list.
+- If you use Private Browsing, check its separate extension permission.
+- Try a light webpage: a website that already has a dark theme may be left unchanged.
+- Reload the webpage, then reopen the popup. The saved mode and current page's result are reported separately. An unavailable or failed result is not confirmation that the page has changed.
+- Some pages, embedded frames, and Safari system pages cannot be styled consistently. Choose **Off** or disable NightRead for that hostname if a site looks wrong.
 
-- Device model and iOS version
-- Safari version
-- Detailed description of the issue
-- Screenshots if applicable
-- Steps to reproduce the problem
+If NightRead is absent from Extensions, open the installed app once and check Safari settings again. If settings cannot be read or saved in the popup, close and reopen it, then retry your choice. If the issue continues, include the displayed message in your feedback.
 
-## User-Generated Content
+## What's new in 2.0
 
-NightRead does not collect, store, or transmit any user-generated content. All your reading preferences and settings remain exclusively on your device.
+- A refreshed NightRead app and Safari popup.
+- On, Auto, and Off controls with three reading appearances.
+- Exact-host website exceptions and an exception management list.
+- Clearer status for the current webpage, including native dark themes and access issues.
+- A local Day/Night sample, setup instructions, and localized controls, including Simplified Chinese.
 
-## Update Log
+## Privacy
 
-### Version 1.0.0 (October 2024)
-- 🎉 Initial release of NightRead
-- 🌙 Basic dark mode functionality
-- 📱 iOS Safari extension support
-- 🔒 Zero data collection commitment
-- ⚡ Performance optimizations
+NightRead has no analytics, advertising, account system, or data collection service. Preferences and website exception hostnames stay in local storage. Styling a page can request its referenced stylesheets or images through the browser; see the [privacy policy]({{ '/privacy/' | relative_url }}).
 
-### Version 1.0.1 (Upcoming)
-- Enhanced compatibility with iOS 17
-- Improved webpage detection
-- Bug fixes and stability improvements
+## Feedback
 
-## Legal Information
+Use the existing [issue tracker](https://github.com/nightread/nightread.github.io/issues). Avoid sharing passwords or private page content. Useful details include:
 
-NightRead is provided through Apple's App Store and is subject to Apple's terms and conditions. The extension is provided "as is" for educational and personal use.
-
----
-
-**Response Time:** We commit to responding to all user inquiries within 24-48 hours during business days.
-
-**Business Hours:** Monday-Friday, 9 AM - 6 PM (Pacific Time)
+- Device model and iOS/iPadOS version.
+- NightRead version and the public webpage URL, if available.
+- The selected mode and reading appearance, the page status shown in the popup, and whether choosing Off restored the page.
+- Steps to reproduce; an optional screenshot with personal information removed.

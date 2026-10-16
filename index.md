@@ -1,40 +1,57 @@
 ---
 layout: default
 title: NightRead
-description: NightRead is a free iOS Safari browser extension designed to provide an enhanced nighttime reading experience for iPhone and iPad users.
+description: Choose Soft gray, Black, or Warm for Safari on iPhone and iPad with NightRead 2.0.
 ---
 
 # NightRead
 
-NightRead is a free iOS Safari browser extension designed to provide an enhanced nighttime reading experience for iPhone and iPad users.
+**A softer web. A quieter night.**
 
-## 🌟 Features
+NightRead {{ site.nightread.version }} brings a darker reading appearance to Safari on iPhone and iPad. Choose a palette, follow your system appearance, and keep individual websites just the way you like them.
 
-- 🌙 **Dark Mode** - Intelligently adjusts webpage brightness and contrast for comfortable nighttime reading
-- 📖 **Reading Optimization** - Enhances fonts and typography for improved reading experience
-- ⚙️ **Personalized Settings** - Customize display effects according to your preferences
-- 🔒 **Privacy Protection** - Zero data collection, all settings stored locally on your device
-- 🆓 **Completely Free** - No ads, no in-app purchases, no subscriptions
+[View NightRead on the App Store]({{ site.nightread.app_store_url }})
 
-## 📱 System Requirements
+## Price and availability
 
-- iOS 15.0 or later
-- Safari browser
-- Compatible with iPhone and iPad
+Download NightRead from the App Store where available. Availability depends on your Apple Account's country or region; check your local App Store listing.
 
-## 🔧 Installation Guide
+**One-time purchase. U.S. base price: {{ site.nightread.us_price }}.** No subscription, in-app purchases, or ads. Apple provides comparable local prices for other storefronts and may adjust them for taxes or exchange rates. Check the price shown in your App Store before purchasing.
 
-1. Download the NightRead app from the App Store
-2. Open iPhone Settings → Safari → Extensions
-3. Enable the "NightRead" extension
-4. In Safari, tap the share button and select NightRead for personalized setup
+## Choose your reading appearance
 
-## 📖 Documentation
+- **Soft gray:** a muted dark palette.
+- **Black:** a deeper background.
+- **Warm:** brown backgrounds and warm text tones.
 
-- [Privacy Policy]({{ '/privacy/' | relative_url }})
-- [Support Page]({{ '/support/' | relative_url }})
+Switch palettes from NightRead's Safari popup and check the result on the webpage itself.
 
----
+## Decide when to use it
 
-If you see this page, GitHub Pages is configured correctly.
+| Mode | What it does |
+| --- | --- |
+| **On** | Apply NightRead's dark appearance to permitted webpages. |
+| **Auto** | Follow your device's system appearance: dark when the system is dark, unchanged when it is light. |
+| **Off** | Restore the website's own appearance. |
 
+Prefer a website in its original colors? Turn on **Disable on this website**. Manage saved hostnames in **Website exceptions**, and remove an entry to enable NightRead there again. Each exception applies to the exact hostname shown, so `example.com` and `www.example.com` are separate choices.
+
+The popup reports the current page's result separately from your saved mode. Some websites already provide a dark theme and may be left unchanged. Results vary by website; choose Off or disable NightRead for a website if its layout or colors do not look right.
+
+## Try the sample, then set up Safari
+
+Open the NightRead app to try the local **Day/Night** sample and read the setup guide. The sample demonstrates Soft gray; it does not change Safari preferences or confirm that the extension is enabled.
+
+1. In Settings, open **Apps → Safari → Extensions → NightRead**. On iOS/iPadOS 17, open **Safari → Extensions → NightRead** directly.
+2. Turn on **Allow Extension** and allow access to the websites you choose. All Websites access is optional; Private Browsing has a separate permission.
+3. Open a light webpage in **Safari**, then open the Page Menu beside the address bar and select **NightRead**. Look under Extensions or More if needed.
+4. Choose **On**, **Auto**, or **Off**, and select your reading appearance. Reload the webpage if needed.
+
+## Requirements and privacy
+
+NightRead {{ site.nightread.version }} requires **iOS or iPadOS {{ site.nightread.minimum_ios }} or later** and Safari on iPhone or iPad. No account is required. Preferences and website exceptions are stored locally on your device; NightRead has no analytics or advertising service.
+
+## Help
+
+- [Setup and troubleshooting]({{ '/support/' | relative_url }})
+- [Privacy policy]({{ '/privacy/' | relative_url }})
