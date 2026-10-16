@@ -4,7 +4,7 @@ Jekyll/GitHub Pages content for the NightRead Safari extension: the product page
 
 ## Release alignment
 
-The current content is prepared for **NightRead 2.0 / build 2**, whose App Store Connect metadata reports a minimum of iOS/iPadOS **17.0**. The U.S. base price is **US$0.99 as a one-time purchase**, with comparable local prices provided automatically by Apple. Availability is managed in App Store Connect. Public pages use a region-neutral App Store link and direct readers to their local storefront for availability and pricing. Verify the current availability, price, and released version before publishing; editing this repository does not change App Store Connect settings or release the app.
+The site describes **NightRead 2.0**, requiring **iOS/iPadOS 17.0 or later**. The U.S. base price is **US$0.99 as a one-time purchase**, with comparable local prices provided automatically by Apple. Public pages use a region-neutral App Store link and direct readers to their local storefront for availability and pricing. Verify the current availability, price, and released version before publishing.
 
 Release values are centralized under `nightread` in [_config.yml](_config.yml). Keep them aligned with the approved release whenever the version, price, or minimum OS changes.
 
